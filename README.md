@@ -2,15 +2,15 @@
     This repository contains R scripts developed by Cuihai You for analyzing ecosystem respiration (ER) data in support of a publication in the Journal of Advances in Modeling Earth Systems (JAMES). The code performs four main analytical tasks: MCMC chain convergence diagnostics, slope comparison, ANOVA with post-hoc tests, and principal component analysis (PCA).
      Script Descriptions
    ## linear model
-   main_linear.m – The main program for model execution
-   Generate_C.m – Script for generating model parameters.
-   soil_scalar_TECO.m – Calculates temperature and moisture scalars.
-   solve_forward.m – Subroutine for solving the forward model
+      main_linear.m – The main program for model execution
+      Generate_C.m – Script for generating model parameters.
+      soil_scalar_TECO.m – Calculates temperature and moisture scalars.
+      solve_forward.m – Subroutine for solving the forward model
    ## microbial model
-   main_microbial_model.m – The main program for model execution
-   Generate_C.m – Script for generating model parameters.
-   soil_scalar_TECO.m – Calculates temperature and moisture scalars.
-   micro_process_new.m – Subroutine for solving the forward model
+      main_microbial_model.m – The main program for model execution
+      Generate_C.m – Script for generating model parameters.
+      soil_scalar_TECO.m – Calculates temperature and moisture scalars.
+      micro_process_new.m – Subroutine for solving the forward model
      
    ## Gelman-Rubin Convergence Diagnostic 
       This script assesses MCMC chain convergence for parameter estimation
